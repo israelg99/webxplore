@@ -1,0 +1,31 @@
+{
+	"name": "Media",
+	"objects":
+	[
+		{
+			"name": "Pulp Fiction.avi",
+			"size": "15 MB",
+			"lastModified": "2 days ago"
+		},
+		{
+			"name": "The Amazing Spiderman.mp4",
+			"size": "7 MB",
+			"lastModified": "3 days ago"
+		},
+		{
+			"name": "Hangover 3 2013.wmv",
+			"size": "32 MB",
+			"lastModified": "5 days ago"
+		},
+		{
+			"name": "Justin Bieber.mp3",
+			"size": "1 MB",
+			"lastModified": "3 days ago"
+		},
+		{
+			"name": "One Direction.mp3",
+			"size": "5 MB",
+			"lastModified": "3 days ago"
+		}
+	]
+}

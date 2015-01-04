@@ -1,0 +1,41 @@
+{
+	"name": "server",
+	"objects":
+	[
+		{
+			"name": "Texts",
+			"size": "15 MB",
+			"lastModified": "2 days ago"
+		},
+		{
+			"name": "Images",
+			"size": "7 MB",
+			"lastModified": "3 days ago"
+		},
+		{
+			"name": "Media",
+			"size": "53 MB",
+			"lastModified": "3 days ago"
+		},
+		{
+			"name": "textfile.txt",
+			"size": "10 MB",
+			"lastModified": "2 months ago"
+		},
+		{
+			"name": "image.jpg",
+			"size": "4 MB",
+			"lastModified": "2 hours ago"
+		},
+		{
+			"name": "gangnam style.mp3",
+			"size": "9 MB",
+			"lastModified": "11 days ago"
+		},
+		{
+			"name": "Project X sample.avi",
+			"size": "15 MB",
+			"lastModified": "4 hours ago"
+		}
+	]
+}

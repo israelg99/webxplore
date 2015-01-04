@@ -1,0 +1,239 @@
+
+/* Main CSS Style File of LiteStack */
+
+/* Basics */
+body {
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+img {
+	border:0px;
+}
+
+/* Wrapper */
+body #wrapper {
+	width:50%;
+	min-width:700px;
+	height:auto;
+	margin:0px auto;
+	padding-top:25px;
+	border:0px solid black;
+}
+
+/* Path */
+body #wrapper #path {
+	width:100%;
+	height:50px;
+	margin:0px auto;
+	position:relative;
+	border:0px solid blue;
+}
+body #wrapper #path > * {
+	padding-left:10px;
+	border:0px solid blue;
+}
+
+/* Tools (in path div) */
+body #wrapper #path #tools {
+	width:30%;
+	height:50%;
+	position:absolute; bottom:0; left:68%;
+	border:0px solid red;
+}
+
+/* Board */
+body #wrapper #board {
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	border:0px solid red;
+}
+body #wrapper #board #basic {
+	width:100%;
+	height:auto;
+	margin:15px auto 1px auto;
+}
+body #wrapper #board #files {
+	width:100%;
+	height:auto;
+}
+body #wrapper #board table tr th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow:hidden;
+	border-collapse:collapse;
+	text-align:left;
+}
+body #wrapper #board table tr th label {
+	margin-left:8px;
+}
+body #wrapper #board #basic #basicTR {
+	width:100%;
+	height:37px;
+	display:table;
+	float:left;
+	background-color:#F0F9FF;
+	border-top:1px solid #82CFFA;
+	border-bottom:1px solid #82CFFA;
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(180, 180, 180, 0.5);
+	box-shadow: 0px 1px 2px 0px rgba(180, 180, 180, 0.5);
+}
+body #wrapper #board #basic #basicTR .nameTH {
+	width:50%;
+	width:78%\9;
+	border:0px solid red;
+}
+body #wrapper #board #basic #basicTR .sizeTH {
+	width:16%;
+	border:0px solid red;
+}
+body #wrapper #board #files #basicTR .kindTH {
+	width:16%;
+	border:0px solid red;
+}
+body #wrapper #board #files #basicTR .dateTH {
+	width:18%;
+	border:0px solid red;
+}
+body #wrapper #board #files .fileTR {
+	width:100%;
+	height:37px;
+	display:table;
+	float:left;
+	padding:5px 0px;
+}
+body #wrapper #board #files .fileTR .nameTH {
+	width:50%;
+	width:78%\9;
+	border:0px solid red;
+}
+body #wrapper #board #files .fileTR .sizeTH {
+	width:16%;
+	border:0px solid red;
+}
+body #wrapper #board #files .fileTR .kindTH {
+	width:16%;
+	border:0px solid red;
+}
+body #wrapper #board #files .fileTR .dateTH {
+	width:18%;
+	border:0px solid red;
+}
+
+/* History Slash Table */
+body #wrapper #slashHistory {
+	width:180px;
+	position:absolute;
+	top:70px;
+	left:500px;
+	border:1px solid #82CFFA;
+	background-color:#FFFFFF;
+	-webkit-border-radius: 30px;
+	border-radius: 10px;
+	text-align:left;
+	z-index:100;
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(180, 180, 180, 0.5);
+	box-shadow: 0px 1px 2px 0px rgba(180, 180, 180, 0.5);
+}
+body #wrapper #slashHistory table {
+	padding:8px 5px;
+	width:100%;
+}
+
+body * {
+	-khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Hover Classes */
+.mouseleave {
+	background-color:#FFFFFF;
+	border-bottom:1px solid #E6E6E6;
+}
+.mouseenter {
+	background-color:#E5F3FF;
+	border-bottom:1px solid #B4C8FF;
+}
+.mouseenterP {
+	background-color:#FFFFFF;
+	border-bottom:1px solid #B4C8FF;
+}
+.mouseclick {
+	background-color:#1E80C1;
+	border-bottom:1px solid #4D52FF;
+}
+.mouseclickP {
+	border-bottom:1px solid #4D52FF;
+}
+.mouseenterSlash {
+	background-color:#E5F3FF;
+}
+.mouseleaveSlash {
+	background-color:#FFFFFF;
+}
+
+/* Fonts */
+.text {
+	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 14px;
+	font-weight:normal;
+}
+.textBold {
+	font-weight:bold;
+}
+.textUnderLine {
+	text-decoration:underline;
+}
+.blue {
+	color:#239FE4;
+}
+.darkBlue {
+	color:#5376EA;
+}
+.dark {
+	color:#666666;
+}
+.light {
+	color:#FFFFFF;
+}
+.grey {
+	color:#444;
+}
+.typo {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 30px;
+	margin-bottom:10px;
+}
+
+/* Functions CSS */
+.textCenter {
+	text-align:center;
+}
+.pointer {
+	cursor:pointer;
+}
+
+/* a tag */
+.a {
+	text-decoration:none
+}
+.a:hover {
+	text-decoration:underline;
+}
+
+/* ToolTip */
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+}
